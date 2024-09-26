@@ -12,7 +12,7 @@ import { FiMenu } from "react-icons/fi"; // Import only the hamburger icon
 
 const Navbar = () => {
   return (
-    <div className="w-full bg-white shadow-sm sticky top-0 z-50">
+    <div className="w-full bg-white shadow-md sticky top-0 z-50">
       <div className="px-6 py-4">
         <nav className="w-full flex justify-between flex-row md:flex-col sm:flex-row lg:flex-row items-center">
           <div className="flex gap-2 items-center">
