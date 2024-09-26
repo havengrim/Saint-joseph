@@ -4,6 +4,9 @@ import AboutUs from "./AboutUs"
 import Education from "./Education"
 import Accomplishments from "./Accomplishments"
 import News from "./News"
+import JoinUs from "./JoinUs"
+import Footer from "@/components/Footer"
+
 
 const Home = () => {
   return (
@@ -14,6 +17,8 @@ const Home = () => {
         <Education />
         <Accomplishments />
         <News />
+        <JoinUs />
+        <Footer />
     </div>
   )
 }

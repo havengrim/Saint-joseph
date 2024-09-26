@@ -48,14 +48,14 @@ function Hero() {
         <SwiperSlide
           className="bg-cover bg-center h-full"
           style={{
-            backgroundImage: `url(${images.slider6})`, // Use image from your assets
+            backgroundImage: `url(${images.slider2})`, // Use image from your assets
             height: '100%',
           }}
         ></SwiperSlide>
         <SwiperSlide
           className="bg-cover bg-center h-full"
           style={{
-            backgroundImage: `url(${images.slider2})`, // Use image from your assets
+            backgroundImage: `url(${images.slider4})`, // Use image from your assets
             height: '100%',
           }}
         ></SwiperSlide>
@@ -69,7 +69,7 @@ function Hero() {
         <SwiperSlide
           className="bg-cover bg-center h-full"
           style={{
-            backgroundImage: `url(${images.slider4})`, // Use image from your assets
+            backgroundImage: `url(${images.slider6})`, // Use image from your assets
             height: '100%',
           }}
         ></SwiperSlide>

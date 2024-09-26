@@ -18,7 +18,10 @@ import ac6 from './ac-6.jpg';
 import ac7 from './ac-7.jpg';
 import ac8 from './ac-8.jpg';
 import ac9 from './ac-9.jpg';
-
+import volleyball from './latest-volleyball.jpg'
+import basketball from './basketball.jpg'
+import chess from './chess.jpg'
+import enroll from './enroll.jpg'
 export const images = {
   logo,
   slider1,
@@ -39,5 +42,9 @@ export const images = {
   ac6,
   ac7,
   ac8,
-  ac9
+  ac9,
+  volleyball,
+  basketball,
+  chess,
+  enroll
 };
