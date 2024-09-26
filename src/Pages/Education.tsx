@@ -70,7 +70,7 @@ const Education = () => {
         <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-16">
             {/* Mobile: Image first, Desktop: Text first */}
-            <div className="order-1 sm:order-2">
+            <div className="order-1 sm:order-1">
               <img
                 src={images.graduate}
                 alt="A representative image for Graduate School"
@@ -78,7 +78,7 @@ const Education = () => {
               />
             </div>
 
-            <div className="order-2 sm:order-1">
+            <div className="order-2 sm:order-2">
               <h3 className="font-bold text-3xl sm:text-4xl leading-tight text-gray-700">
                 Graduate School
               </h3>
