@@ -35,10 +35,10 @@ const Navbar = () => {
           {/* Navigation List - Hidden on Mobile and Tablet */}
           <ul className="hidden md:flex justify-between items-center gap-5">
             <li>
-              <a href="" className="text-base font-medium text-gray-700">Home</a>
+              <a href="" className="text-base font-medium text-gray-700 sm:mr-4">Home</a>
             </li>
             <li>
-              <NavigationMenu>
+              <NavigationMenu className="!p-0">
                 <NavigationMenuList>
                   <NavigationMenuItem className="relative group">
                     <NavigationMenuTrigger className="text-base font-medium text-gray-700">About Us</NavigationMenuTrigger>
@@ -80,7 +80,7 @@ const Navbar = () => {
               </NavigationMenu>
             </li>
             <li>
-              <a href="" className="text-base font-medium text-gray-700">Contact</a>
+              <a href="" className="text-base font-medium text-gray-700 sm:mr-4">Contact</a>
             </li>
             <li>
               <a href="">
